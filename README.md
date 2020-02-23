@@ -201,6 +201,7 @@ pom中
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+				<!--添加，自动生成guild-info.properties,在Plugins中spring-boot-->
                 <executions>
                     <execution>
                         <goals>
